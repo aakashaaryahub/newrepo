@@ -1,0 +1,28 @@
+/* StatusPage.css */
+.status-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.status-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Description Style */
+.status-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Add responsiveness to grid */
+@media (max-width: 600px) {
+    .MuiGrid-item {
+        text-align: center;
+    }
+}

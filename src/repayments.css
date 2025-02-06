@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    .repayment-container {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1025px) {
+    .repayment-container {
+        width: 80vw;
+    }
+}
