@@ -1,2 +1,25 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+:root {
+  --ion-background-color: #f4f4f4;  /* Light background */
+  --ion-text-color: #333;  /* Dark text */
+  --ion-toolbar-background: black; /* Toolbar background color */
+  --ion-toolbar-text-color: white; /* Toolbar text color */
+  --ion-color-primary: black; /* Default primary color */
+  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary-contrast: #ffffff; /* Text color for primary */
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+
+  /* Set other colors like secondary, tertiary, etc., if needed */
+  --ion-color-secondary: #3dc2ff;
+  --ion-color-tertiary: #7044ff;
+}
+
+body {
+  background-color: var(--ion-background-color);
+  color: var(--ion-text-color);
+}
+
+ion-segment::-webkit-scrollbar {
+  display: none;
+}

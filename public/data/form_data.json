@@ -1,0 +1,546 @@
+    {
+        "status": true,
+        "tabCount": 6,
+        "tabs": [
+            {
+                "tabName": "Basic Details",
+                "show": true,
+                "formType":"form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "Basic Details",
+                        "formType": "form",
+                        "items": [
+                            {
+                                "label": "First Name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Middle Name",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Last Name",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Loan Type",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Car",
+                                    "Bidjnke",
+                                    "Home",
+                                    "Business"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Age",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Gender",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Male",
+                                    "Female",
+                                    "Others"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Father's full name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Mothers's full name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Husband's full name(Female Applicant)",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Basic Education",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Ration card type",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Type 1",
+                                    "Type 2",
+                                    "Type 3",
+                                    "Type 4"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Purpose of Loan",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Mobile",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Aadhar",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "PAN",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "DOB",
+                                "type": "date",
+                                "validations": []
+                            },
+                            {
+                                "label": "Res. Address",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Current Address",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Attachment",
+                                "type": "file",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Address Details",
+                "show": true,
+                "form_type":"form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "Present Address",
+                        "formType":"form",
+                        "items": [
+                            {
+                                "label": "Urban/Rural",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Urban",
+                                    "Rural"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Division",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Division",
+                                    "Division",
+                                    "Division",
+                                    "Division"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "District",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "District",
+                                    "District",
+                                    "District",
+                                    "District"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Taluka",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Taluka",
+                                    "Taluka",
+                                    "Taluka",
+                                    "Taluka"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "House No./Flat no",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Villafe/Area/Landmark",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Pincode",
+                                "type": "text",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Permanent Address",
+                        "formType": "form",
+                        "items": [
+                            {
+                                "label": "Urban/Rural",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Urban",
+                                    "Rural"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Division",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Division",
+                                    "Division",
+                                    "Division",
+                                    "Division"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "District",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "District",
+                                    "District",
+                                    "District",
+                                    "District"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Taluka",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Taluka",
+                                    "Taluka",
+                                    "Taluka",
+                                    "Taluka"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "House No./Flat no",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Villafe/Area/Landmark",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Pincode",
+                                "type": "text",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Family Details",
+                "show": true,
+                "formType": "addable_form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "",
+                        "items": [
+                            {
+                                "label": "Person name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Age",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Relation",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Relation",
+                                    "Relation",
+                                    "Relation",
+                                    "Relation",
+                                    "Relation"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Occupation",
+                                "type": "text",
+                                "validations": []
+                            }
+                        ]
+                    }
+                
+                
+                ]
+            },
+            {
+                "tabName": "Education Details",
+                "show": true,
+                "formType": "addable_form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "Personal Data",
+                        "items": [
+                            {
+                                "label": "Caste",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Caste",
+                                    "Caste",
+                                    "Caste",
+                                    "Caste",
+                                    "Caste"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Subcaste",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Subcaste",
+                                    "Subcaste",
+                                    "Subcaste",
+                                    "Subcaste",
+                                    "Subcaste"
+                                ],
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "SSC Details",
+                        "items": [
+                            {
+                                "label": "SSC Year of passing",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Institution/University",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Percentage",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "HSC Details",
+                        "items": [
+                            {
+                                "label": "HSC Year of passing",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Institution/University",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Percentage",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Graduation Details",
+                        "items": [
+                            {
+                                "label": "Graduation Year of passing",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Institution/University",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Percentage",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "P.G. Details",
+                        "items": [
+                            {
+                                "label": "P.G. Year of passing",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Institution/University",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Percentage",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Other Qualifications",
+                        "items": [
+                            {
+                                "label": "",
+                                "type": "text",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Particulars of Parent/Guardian",
+                        "items": [
+                            {
+                                "label": "P.G. Year of passing",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Institution/University",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Percentage",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Particulars of Parent/Guardian",
+                        "items": [
+                            {
+                                "label": "Full name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Phone number",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Permanent Address(Residence)",
+                                "type": "textarea",
+                                "validations": []
+                            },
+                            {
+                                "label": "Age",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Phone number(Office)",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Permanent Address(Place of work)",
+                                "type": "textarea",
+                                "validations": []
+                            }
+                        ]
+                    },
+                    {
+                        "groupName": "Course Details: (for which educational loan is sought)",
+                        "items": [
+                            {
+                                "label": "Name of the course",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Duration",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Details of the placement to be provided by the educational institute, if any",
+                                "type": "textarea",
+                                "validations": []
+                            },
+                            {
+                                "label": "Entrance exam, if any qualified",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Name of the college/institute/university",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Country(Non mandatory)",
+                                "type": "textarea",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Documents",
+                "show": true,
+                "formType": "form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "",
+                        "items": [
+                            {
+                                "label": "Copy of address proof",
+                                "type": "file",
+                                "validations": []
+                            }
+                        ]
+                    }
+                
+                
+                ]
+            }
+        ]
+    }
+    

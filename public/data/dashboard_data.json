@@ -1,0 +1,73 @@
+{
+  "status": true,
+  "sections": [
+    {
+      "name": "Section1",
+      "type": "tab",
+      "elements": [
+        {
+          "name": "Total Loan",
+          "value": 300
+        },
+        {
+          "name": "Total This Month Due",
+          "value": 12
+        },
+        {
+          "name": "Total This Month Overdue",
+          "value": 33
+        },
+        {
+          "name": "Total Alerts",
+          "value": 42
+        },
+        {
+          "name": "Total This Month Due",
+          "value": 12
+        },
+        {
+          "name": "Total This Month Overdue",
+          "value": 33
+        },
+        {
+          "name": "Total Pending Requests",
+          "value": 42
+        },
+        {
+          "name": "Total Alerts",
+          "value": 42
+        }
+      ]
+    },
+    {
+      "name": "Loan Trends",
+      "type": "chart",
+      "elements": [
+        {
+          "name": "Loan Amount Over Time",
+          "type": "line",
+          "data": [100, 200, 150, 250, 300]
+        },
+        { 
+          "name": "Overdue Loans",
+          "type": "bar",
+          "data": [5, 10, 7, 8, 20]
+        }
+      ]
+    },
+    {
+      "name": "User Data",
+      "type": "table",
+      "elements": [
+        {
+          "columns": ["ID", "Name", "Age", "City"],
+          "rows": [
+            { "id": 1, "name": "John Doe", "age": 28, "city": "New York" },
+            { "id": 2, "name": "Jane Smith", "age": 34, "city": "Los Angeles" },
+            { "id": 3, "name": "George Brown", "age": 45, "city": "Chicago" }
+          ]
+        }
+      ]
+    }
+  ]
+}

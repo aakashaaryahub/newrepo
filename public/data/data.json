@@ -1,0 +1,438 @@
+    {
+        "status": true,
+        "tabCount": 6,
+        "tabs": [
+            {
+                "tabName": "Loan Details",
+                "type": "form",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Loan Application Form",
+                        "labels": [
+                            {
+                                "label": "First Name",
+                                "type": "text",
+                                "validations": []
+                                
+                            },
+                            {
+                                "label": "Middle Name",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Last Name",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Loan Type",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Car",
+                                    "Bidjnke",
+                                    "Home",
+                                    "Business"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Age",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Gender",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Male",
+                                    "Female",
+                                    "Others"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Father's full name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Mothers's full name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Husband's full name(Female Applicant)",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Basic Education",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Ration card type",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Type 1",
+                                    "Type 2",
+                                    "Type 3",
+                                    "Type 4"
+                                ],
+                                "validations": []
+                            },
+                            
+                            {
+                                "label": "Purpose of Loan",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Mobile",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Aadhar",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "PAN",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "DOB",
+                                "type": "date",
+                                "validations": []
+                            },
+                            {
+                                "label": "Res. Address",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Current Address",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Attachment",
+                                "type": "file",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Address Details",
+                "type": "form",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Loan Application Form",
+                        "labels": [
+                            {
+                                "label": "Urban/Rural",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Urban",
+                                    "Rural"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Division",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Div 1",
+                                    "Div 2"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "District",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Sangli",
+                                    "Dist1"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Taluka",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Taluka1",
+                                    "Taluka1",
+                                    "Taluka1",
+                                    "Taluka1"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "House no.",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Building name",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Village/Area/Landmark",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Pincode",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Family Details",
+                "type": "addable_form",
+                "show": true,
+                "elements": [   
+                    {
+                        "tabHeading": "Loan Application Form",
+                        "labels": [
+                            {
+                                "label": "Namkjfebe",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Age",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Relation",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Mother",
+                                    "Father",
+                                    "Sister",
+                                    "Brother"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Occupation",
+                                "type": "text",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Education Details",
+                "type": "form",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Loan Application Form",
+                        "labels": [
+                            {
+                                "label": "Caste",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "SC",
+                                    "Others"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Subcaste",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Div 1",
+                                    "Div 2"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Annual Family income",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Sangli",
+                                    "Dist1"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Contact number",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Taluka1",
+                                    "Taluka1",
+                                    "Taluka1",
+                                    "Taluka1"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Valid passport no.(for students)",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Valid visa/ permit no.",
+                                "type": "number",
+                                "validations": []
+                            },
+                            {
+                                "label": "Valid passport expiry date",
+                                "type": "calendar",
+                                "validations": []
+                            },
+                            {
+                                "label": "Pincode",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Guarantor Details",
+                "type": "addable_form",
+                "show": true,
+                "elements": [   
+                    {
+                        "tabHeading": "Loan Application Form",
+                        "labels": [
+                            {
+                                "label": "Namkjfebe",
+                                "type": "text",
+                                "validations": []
+                            },
+                            {
+                                "label": "Relation",
+                                "type": "ddl",
+                                "ddlItems": [
+                                    "Mother",
+                                    "Father",
+                                    "Sister",
+                                    "Brother"
+                                ],
+                                "validations": []
+                            },
+                            {
+                                "label": "Pincode",
+                                "type": "number",
+                                "validations": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Guarantor Details",
+                "type": "info",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Guarantors",
+                        "labels": [
+                            "Nahbjme",
+                            "Info",
+                            "%",
+                            "dihc"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Collateral Details",
+                "type": "info",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Collateral",
+                        "labels": [
+                            "Name",
+                            "hdbch",
+                            "%"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Deductions",
+                "type": "info",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Deductions",
+                        "labels": [
+                            "Deduction Type",
+                            "Amount",
+                            "Add"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Repayment Schedule",
+                "type": "table",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "",
+                        "labels": [
+                            "Date",
+                            "Amount to be paid",
+                            "Principal Amount",
+                            "Interest",
+                            "Late Penalty",
+                            "Balance",
+                            "Status"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Documents",
+                "type": "table",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Guarantors",
+                        "labels": [
+                            "Document Type",
+                            "Description",
+                            "Current value"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tabName": "Status",
+                "type": "info",
+                "show": true,
+                "elements": [
+                    {
+                        "tabHeading": "Status",
+                        "labels": [
+                            "Document Type",
+                            "Description",
+                            "Current value"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }

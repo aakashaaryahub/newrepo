@@ -1,0 +1,89 @@
+.heading {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        flex-direction: column;
+    }
+
+    .addCollateral{
+        width: 100vw;
+        margin-bottom: 2rem;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: fixed; /* Makes sure that the columns are aligned properly */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd; /* Add border to make the table more readable */
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Slight background color for the header */
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #ffffff; /* White background for the rows */
+  }
+  
+  /* Responsive table design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px; /* Adjust font size on smaller screens */
+    }
+  
+    th, td {
+      padding: 8px; /* Reduce padding on smaller screens */
+    }
+  }
+  
+  .guarantor-page {
+    background-color: #f4f4f4;
+}
+
+.content-box {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table td {
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        width: 95%;
+    }
+}

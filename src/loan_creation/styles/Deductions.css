@@ -1,0 +1,71 @@
+/* DeductionPage.css */
+.deduction-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.add-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+/* Material-UI Table */
+.MuiTable-root {
+  width: 100%;
+}
+
+.MuiTableCell-root {
+  padding: 10px 15px;
+}
+
+.MuiTableContainer-root {
+  overflow-x: auto;
+}
+
+/* Make the table responsive */
+@media (max-width: 768px) {
+  .MuiTableCell-root {
+      padding: 8px;
+  }
+}
+
+/* Center content */
+.MuiGrid-container {
+  max-width: 100%;
+}
+
+/* Add responsiveness to grid */
+@media (max-width: 600px) {
+  .MuiGrid-item {
+      text-align: center;
+  }
+
+  .MuiButton-root {
+      width: 100%;
+      margin-top: 10px;
+  }
+}
