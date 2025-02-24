@@ -1,99 +1,114 @@
 .content {
-    padding: 20px;
-  }
-  
-  .segment {
-    margin: 20px 0;
-  }
-  
-  .form-card {
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-  
-  .form-card-header {
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .form-card-content {
-    padding: 20px;
-  }
-  
-  .form-item {
-    margin-bottom: 15px;
-  }
-  
-  .input-field, .select-field, .file-input {
-    width: 100%;
-  }
-  
-  .submit-btn {
-    margin-top: 20px;
-    font-size: 16px;
-  }
-  
-  .content {
-    padding: 20px;
-  }
-  
-  .segment {
-    margin: 20px 0;
-  }
-  
-  .form-card {
-    margin-bottom: 20px;
-    border-radius: 10px;
-  }
-  
-  .form-card-header {
-    background-color: #f4f4f4;
-    padding: 15px;
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .form-card-content {
-    padding: 20px;
-  }
-  
-  .form-item {
-    margin-bottom: 20px;  /* Increased gap between form items */
-  }
-  
-  .input-field,
-  .select-field,
-  .file-input {
-    width: 100%;
-    border: 1px solid #ccc;  /* Add a light border around the inputs */
-    border-radius: 8px;       /* Slightly rounded corners */
-    padding: 10px;            /* Padding inside the text field */
-    font-size: 16px;          /* Consistent font size */
-    
-  }
-  
-  .input-field:focus,
-  .select-field:focus {
-    outline: none;            /* Remove default outline */
-  }
-  
-  /* Label Styling */
-  .form-item IonLabel {
-    font-weight: bold;        /* Make the label text bold */
-    margin-bottom: 8px;       /* Add some space below the label */
-    font-size: 26px;          /* Ensure the font size is appropriate */
-  }
-  
-  .submit-btn {
-    margin-top: 20px;
-    font-size: 16px;
-  }
-  
-  /* Ensuring that the label font-size is updated */
+  padding: 20px;
+}
+
+.segment {
+  margin: 20px 0;
+}
+
+.form-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form-card-header {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+}
+
+.form-card-content {
+  padding: 20px;
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+.input-field,
+.select-field,
+.file-input {
+  width: 100%;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.segment {
+  margin: 20px 0;
+}
+
+.form-card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form-card-header {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.form-card-content {
+  padding: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+  /* Increased gap between form items */
+}
+
+.input-field,
+.select-field,
+.file-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  /* Add a light border around the inputs */
+  border-radius: 8px;
+  /* Slightly rounded corners */
+  padding: 10px;
+  /* Padding inside the text field */
+  font-size: 16px;
+  /* Consistent font size */
+
+}
+
+.input-field:focus,
+.select-field:focus {
+  outline: none;
+  /* Remove default outline */
+}
+
+/* Label Styling */
+.form-item IonLabel {
+  font-weight: bold;
+  /* Make the label text bold */
+  margin-bottom: 8px;
+  /* Add some space below the label */
+  font-size: 26px;
+  /* Ensure the font size is appropriate */
+}
+
+.submit-btn {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Ensuring that the label font-size is updated */
 .form-item .form-label {
-  font-weight: bold;          /* Make the label bold */
-  margin-bottom: 8px;         /* Add space below the label */
-  font-size: 20px !important; /* Force the font size change using !important */
+  font-weight: bold;
+  /* Make the label bold */
+  margin-bottom: 8px;
+  /* Add space below the label */
+  font-size: 20px !important;
+  /* Force the font size change using !important */
 }
 
 .input-field,
@@ -114,4 +129,14 @@
 .submit-btn {
   margin-top: 20px;
   font-size: 16px;
+}
+
+.group-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* In your NewLoanScreen.css */
+.modal-content {
+  padding: 190px; /* You can adjust the padding value as needed */
 }

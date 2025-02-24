@@ -37,8 +37,8 @@ const Page: React.FC = () => {
         return <Schemes filterCategory={selectedCategory} />;  // Pass selectedCategory to Schemes
       case 'new-loann': 
         return <NewLoanScreen />;
-      case 'application-details':
-        return <ApplicationDetails />;
+      // case 'application-details':
+      //   return <ApplicationDetails />;
       case 'dashboard':
         return <Dashboard />;
       case 'new-loan':

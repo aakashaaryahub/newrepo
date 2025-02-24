@@ -26,7 +26,7 @@ interface SchemesProps {
 }
 
 const Schemes: React.FC<SchemesProps> = ({ filterCategory }) => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true); // Initially loading is true
   const [filteredData, setFilteredData] = useState(subscriptionData);
   const [selectedCategory, setSelectedCategory] = useState<string>(filterCategory);
   const [showAlert, setShowAlert] = useState(false);
@@ -42,12 +42,17 @@ const Schemes: React.FC<SchemesProps> = ({ filterCategory }) => {
 
   // Apply filter based on selected category
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false); // After 2 seconds, set loading to false
+    }, 2000);
+
     if (selectedCategory) {
       setFilteredData(subscriptionData.filter(scheme => scheme.category === selectedCategory));
     } else {
       setFilteredData(subscriptionData); // If no filter category, show all schemes
     }
-    setIsLoading(false);
+
+    return () => clearTimeout(timer); // Cleanup the timeout when the component is unmounted
   }, [selectedCategory]);
 
   // Handle Apply Now button click
@@ -90,7 +95,7 @@ const Schemes: React.FC<SchemesProps> = ({ filterCategory }) => {
 
         {/* IonAlert for Apply Now Confirmation */}
         <IonAlert
-          isOpen={showAlert}  
+          isOpen={showAlert}
           onDidDismiss={() => setShowAlert(false)}
           header={'Confirm'}
           message={'Applicants are advised to note that simply submitting the loan application, shall not make the applicant entitled to receive the loan and/or this does not create any privilege or right or claim on MPBCDC and the application shall be processed on a merit basis, subject to terms and conditions/guidelines as issued by the Government of India/Government of Maharashtra.'}

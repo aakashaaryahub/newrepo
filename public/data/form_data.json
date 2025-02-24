@@ -540,6 +540,26 @@
                 
                 
                 ]
+            },
+            {
+                "tabName": "Status",
+                "show": true,
+                "formType": "form",
+                "formGroups": 1,
+                "formGroupItems": [
+                    {
+                        "groupName": "",
+                        "items": [
+                            {
+                                "label": "Copy of address proof",
+                                "type": "file",
+                                "validations": []
+                            }
+                        ]
+                    }
+                
+                
+                ]
             }
         ]
     }

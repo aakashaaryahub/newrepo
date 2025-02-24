@@ -4,16 +4,22 @@ import { statsChart } from 'ionicons/icons';
 import { Line, Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, LineElement, PointElement } from 'chart.js';
 import '../styles/Home.css';
+import Loading from './Loading'; // Assuming you have a separate Loading component
 
 // Register chart.js components
-
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, LineElement, PointElement);
 
 function Home() {
   const [data, setData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(true); // Loading state
 
   useEffect(() => {
+    // Simulate a 2-second loading delay
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Set to 2 seconds
+
     // Fetch the JSON data from the public folder
     fetch('/data/dashboard_data.json')
       .then((response) => {
@@ -30,11 +36,15 @@ function Home() {
         console.error('Error fetching data:', error);
         setError('Failed to load data');
       });
+
+    // Clear the timer when the component is unmounted
+    return () => clearTimeout(timer);
   }, []);
 
   // Ensure that data is loaded before accessing
+  if (loading) return <Loading />; // Show loader for 2 seconds
+
   if (error) return <div>{error}</div>;
-  if (!data) return <div>Loading...</div>;
 
   // Get the first section from the data (Section1)
   const section1 = data.sections.find((section: any) => section.name === 'Section1');
@@ -97,7 +107,7 @@ function Home() {
             </IonCard>
           ))}
         </div>
-        
+
         {/* Charts Section */}
         <div className="charts-section">
           <IonCard className="chart-card">

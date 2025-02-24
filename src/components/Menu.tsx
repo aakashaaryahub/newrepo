@@ -50,12 +50,12 @@ const appPages: AppPage[] = [
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp,
   },
-  {
-    title: 'Application Details',
-    url: '/folder/application-details',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneOutline,
-  },
+  // {
+  //   title: 'Application Details',
+  //   url: '/folder/application-details',
+  //   iosIcon: paperPlaneOutline,
+  //   mdIcon: paperPlaneOutline,
+  // },
   {
     title: 'New Loan',
     url: '/folder/new-loan',
